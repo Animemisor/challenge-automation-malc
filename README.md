@@ -21,7 +21,9 @@ mvn clean test -Dkarate.env=QA
 
 ## Frontend (PHPTravels)
 cd front-phptravels
+
 npm install
+
 npx playwright install
 
 # Ejecutar pruebas 
