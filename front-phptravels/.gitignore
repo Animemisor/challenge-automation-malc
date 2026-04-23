@@ -1,0 +1,49 @@
+# Dependencias
+node_modules/
+
+# Archivos de compilación
+dist/
+*.js
+*.js.map
+
+# Reportes y logs
+playwright-report/
+test-results/
+reports/
+*.log
+*.json
+!package.json
+!tsconfig.json
+!cucumber.json
+
+# Capturas de pantalla
+screenshots/
+
+# Variables de entorno
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos de cobertura
+coverage/
+.nyc_output/
+
+# Archivos temporales
+*.tmp
+*.temp
+*.cache
+
+# Configuraciones locales
+playwright/.auth/

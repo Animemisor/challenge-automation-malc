@@ -1,0 +1,19 @@
+{
+  "name": "phptravels-challenge",
+  "version": "3.0.0",
+  "description": "Automation framework for PHPTravels following ISTQB best practices",
+  "scripts": {
+    "test": "cucumber-js",
+    "test:success": "cucumber-js --tags '@success'",
+    "test:rejected": "cucumber-js --tags '@rejected'",
+    "test:headed": "cucumber-js --world-parameters '{\"headed\": true}'",
+    "test:report": "cucumber-js --format html:reports/cucumber-report.html"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.0.0",
+    "@playwright/test": "^1.40.0",
+    "@types/node": "^20.10.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.3.0"
+  }
+}

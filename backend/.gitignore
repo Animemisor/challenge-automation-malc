@@ -1,0 +1,41 @@
+# Archivos compilados de Maven
+target/
+*.class
+
+# Archivos de log
+*.log
+karate-reports/
+surefire-reports/
+
+# Archivos de configuración local (claves secretas)
+.env
+secrets.local.js
+application-local.properties
+
+# Archivos del IDE - VS Code
+.vscode/
+*.code-workspace
+
+# Archivos del IDE - IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Archivos del IDE - Eclipse
+.settings/
+.project
+.classpath
+.metadata/
+
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
+*.lock
+
+# Backups
+*.bak
+*.backup
+*.old
