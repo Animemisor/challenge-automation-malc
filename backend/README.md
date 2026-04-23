@@ -4,11 +4,17 @@ Pruebas automatizadas para la API de Pokémon usando Karate DSL.
 ## Requisitos cumplidos
 
 ✅ Multi-ambiente (QA / CERT)
+
 ✅ Clave secreta encriptada con SHA256
+
 ✅ Log de la clave antes de cada prueba
+
 ✅ Validación de Pokémon por ID y por nombre
+
 ✅ Tiempo de respuesta menor a 10 segundos
+
 ✅ Log de fecha y hora al finalizar cada prueba
+
 
 # Requisitos previos
 Antes de empezar, necesitas tener instalado:
@@ -53,6 +59,9 @@ target/karate-reports/karate-summary.html
 
 # Qué pruebas hace
 Obtiene 3 Pokémon por ID (bulbasaur, pikachu, snorlax)
+
 Obtiene los mismos 3 Pokémon por nombre
+
 Valida que la respuesta sea correcta
+
 Valida que el tiempo no pase los 10 segundos
