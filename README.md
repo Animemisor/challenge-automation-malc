@@ -14,13 +14,13 @@ En este repositorio puedes hallar la automatización de 2 proyectos:
 ## 🚀 Ejecutar cada proyecto
 
 ## Backend (API Pokémon)
-cd backend
+cd challenge-automation-malc\backend
 
 # Ejecutar pruebas
 mvn clean test -Dkarate.env=QA
 
 ## Frontend (PHPTravels)
-cd front-phptravels
+cd challenge-automation-malc\front-phptravels
 
 npm install
 
