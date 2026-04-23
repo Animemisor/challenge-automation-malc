@@ -17,7 +17,7 @@ En este repositorio puedes hallar la automatización de 2 proyectos:
 cd challenge-automation-malc\backend
 
 # Ejecutar pruebas
-mvn clean test -Dkarate.env=QA
+mvn clean test
 
 ## Frontend (PHPTravels)
 cd challenge-automation-malc\front-phptravels
