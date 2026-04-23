@@ -1,8 +1,6 @@
 /**
  * ARCHIVO: config/environment.ts
  * PROPÓSITO: Centralizar todas las configuraciones del entorno.
- * PRINCIPIO ISTQB: Separación de datos de prueba de la lógica de negocio.
- * MANTENIBILIDAD: Cambiar una URL o timeout aquí afecta globalmente.
  */
 
 export const config = {
