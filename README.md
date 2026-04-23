@@ -30,7 +30,7 @@ npx playwright install
 npm run test
 
 ## 📖 Documentación adicional
-Para más detalles (reportes, estructura, ambientes), consultar en las siguientes rutas:
+Para más detalles y sobre otras ejecuciones que se pueden realizar en los proyectos (reportes, estructura, ambientes), consultar en las siguientes rutas:
 
 backend/README.md
 
