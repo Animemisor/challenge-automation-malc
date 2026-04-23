@@ -32,7 +32,7 @@ mvn -version
 
 # Instalación y configuración
 1. Clonar o descargar el proyecto
-git clone <url-del-repositorio>
+git clone (https://github.com/Animemisor/challenge-automation-malc)
 
 2. El proyecto ya incluye configuración Maven
 No necesitas instalar nada adicional. El archivo pom.xml ya tiene todas las dependencias:
