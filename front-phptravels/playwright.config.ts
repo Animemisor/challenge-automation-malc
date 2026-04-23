@@ -8,7 +8,7 @@ import { defineConfig, devices } from '@playwright/test';
 
 export default defineConfig({
   // Nota: Los tests se ejecutan con Cucumber, no directamente con Playwright Test
-  testDir: './features',  // Cambiado de './tests' a './features'
+  testDir: './features',
   timeout: 120000,
   fullyParallel: false,
   forbidOnly: !!process.env.CI,
