@@ -21,6 +21,7 @@ Antes de empezar, necesitas tener instalado:
 
 # Verificar instalación
 java -version
+
 mvn -version
 
 # Instalación y configuración
@@ -35,7 +36,7 @@ primero debes dirigirte a la carpeta backend:
 cd backend
 
 ## Comando básico de ejecución
-mvn clean test -Dkarate.env=QA
+mvn clean test "-Dkarate.env=QA"
 
 # Comandos disponibles
 Comando	-> Qué hace
