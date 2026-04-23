@@ -14,7 +14,6 @@ reports/
 *.json
 !package.json
 !tsconfig.json
-!cucumber.json
 
 # Capturas de pantalla
 screenshots/
