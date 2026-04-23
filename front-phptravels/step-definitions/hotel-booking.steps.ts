@@ -70,7 +70,6 @@ Given('el usuario cambia la moneda a {string}', { timeout: config.timeouts.long 
 });
 
 Given('el usuario selecciona el código de país {string}', { timeout: config.timeouts.long }, async function (this: CustomWorld, codigo: string) {
-  // Log gestionado en Page Object
 });
 
 // ============================================================================
@@ -147,7 +146,6 @@ Then('el usuario debe ser redirigido a la página de booking', { timeout: config
 });
 
 Then('los datos personales deben ser guardados correctamente', { timeout: config.timeouts.long }, async function (this: CustomWorld) {
-  // Log gestionado en Page Object
 });
 
 Then('el usuario debe ser redirigido a la página de factura', { timeout: config.timeouts.long }, async function (this: CustomWorld) {
