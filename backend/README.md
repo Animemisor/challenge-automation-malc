@@ -40,8 +40,11 @@ mvn clean test "-Dkarate.env=QA"
 
 # Comandos disponibles
 Comando	-> Qué hace
+
 mvn clean test -Dkarate.env=QA -> Ejecuta en ambiente QA
+
 mvn clean test -Dkarate.env=CERT -> Ejecuta en ambiente CERT
+
 mvn clean test -> Ejecuta con QA por defecto
 
 # Ver reporte HTML
