@@ -31,5 +31,7 @@ npm run test
 
 ## 📖 Documentación adicional
 Para más detalles (reportes, estructura, ambientes), consultar en las siguientes rutas:
+
 backend/README.md
+
 front-phptravels/README.md
