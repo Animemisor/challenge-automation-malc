@@ -23,6 +23,7 @@ Antes de empezar, necesitas tener instalado:
 |-------------|---------|-------------|
 | Java | 11 o 17 | Ejecutar Maven y las pruebas |
 | Maven | 3.6+ | Descargar dependencias y ejecutar tests |
+| Karate DSL | (se instala automáticamente vía Maven)
 | Git | Cualquiera | Clonar el repositorio |
 
 # Verificar instalación
